@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.parsers
+package org.xmanga.soft.parsers
 
 import okhttp3.Interceptor
 import okhttp3.Response

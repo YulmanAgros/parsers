@@ -20,7 +20,7 @@ compileKotlin {
 			'-opt-in=kotlin.RequiresOptIn',
 			'-opt-in=kotlin.contracts.ExperimentalContracts',
 			'-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi',
-			'-opt-in=org.koitharu.kotatsu.parsers.InternalParsersApi',
+			'-opt-in=org.xmanga.soft.parsers.InternalParsersApi',
 		]
 	}
 }
@@ -30,7 +30,7 @@ compileTestKotlin {
 		freeCompilerArgs += [
 			'-opt-in=kotlin.RequiresOptIn',
 			'-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi',
-			'-opt-in=org.koitharu.kotatsu.parsers.InternalParsersApi',
+			'-opt-in=org.xmanga.soft.parsers.InternalParsersApi',
 		]
 	}
 }

@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.parsers
+package org.xmanga.soft.parsers
 
 import okhttp3.Interceptor
 import okhttp3.Request
 import okhttp3.Response
-import org.koitharu.kotatsu.parsers.model.MangaParserSource
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.util.domain
-import org.koitharu.kotatsu.parsers.util.mergeWith
+import org.xmanga.soft.parsers.model.MangaParserSource
+import org.xmanga.soft.parsers.model.MangaSource
+import org.xmanga.soft.parsers.util.domain
+import org.xmanga.soft.parsers.util.mergeWith
 
 private const val HEADER_REFERER = "Referer"
 

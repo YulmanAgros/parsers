@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.parsers
+package org.xmanga.soft.parsers
 
 import kotlinx.coroutines.test.runTest
 import org.junit.jupiter.api.extension.BeforeAllCallback
 import org.junit.jupiter.api.extension.ExtensionContext
-import org.koitharu.kotatsu.parsers.model.MangaParserSource
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.xmanga.soft.parsers.model.MangaParserSource
+import org.xmanga.soft.parsers.util.runCatchingCancellable
 
 class AuthCheckExtension : BeforeAllCallback {
 

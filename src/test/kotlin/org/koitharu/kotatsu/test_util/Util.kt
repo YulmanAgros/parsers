@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.test_util
+package org.xmanga.soft.test_util
 
 import androidx.collection.ArraySet
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaParserSource
-import org.koitharu.kotatsu.parsers.model.RATING_UNKNOWN
-import org.koitharu.kotatsu.parsers.util.toRelativeUrl
+import org.xmanga.soft.parsers.model.Manga
+import org.xmanga.soft.parsers.model.MangaParserSource
+import org.xmanga.soft.parsers.model.RATING_UNKNOWN
+import org.xmanga.soft.parsers.util.toRelativeUrl
 
 private val PATTERN_URL_ABSOLUTE = Regex("^https?://[\\s\\S]+", setOf(RegexOption.IGNORE_CASE))
 private val PATTERN_URL_RELATIVE = Regex("^/[\\s\\S]+", setOf(RegexOption.IGNORE_CASE))

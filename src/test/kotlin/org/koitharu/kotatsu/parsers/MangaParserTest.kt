@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.parsers
+package org.xmanga.soft.parsers
 
 import kotlinx.coroutines.test.runTest
 import okhttp3.HttpUrl
 import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.params.ParameterizedTest
-import org.koitharu.kotatsu.parsers.model.*
-import org.koitharu.kotatsu.parsers.util.domain
-import org.koitharu.kotatsu.parsers.util.medianOrNull
-import org.koitharu.kotatsu.parsers.util.mimeType
-import org.koitharu.kotatsu.test_util.*
+import org.xmanga.soft.parsers.model.*
+import org.xmanga.soft.parsers.util.domain
+import org.xmanga.soft.parsers.util.medianOrNull
+import org.xmanga.soft.parsers.util.mimeType
+import org.xmanga.soft.test_util.*
 import kotlin.time.Duration.Companion.minutes
 
 //@ExtendWith(AuthCheckExtension::class)

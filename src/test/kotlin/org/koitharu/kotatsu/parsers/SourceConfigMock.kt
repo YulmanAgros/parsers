@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.parsers
+package org.xmanga.soft.parsers
 
-import org.koitharu.kotatsu.parsers.config.ConfigKey
-import org.koitharu.kotatsu.parsers.config.MangaSourceConfig
+import org.xmanga.soft.parsers.config.ConfigKey
+import org.xmanga.soft.parsers.config.MangaSourceConfig
 
 internal class SourceConfigMock : MangaSourceConfig {
 

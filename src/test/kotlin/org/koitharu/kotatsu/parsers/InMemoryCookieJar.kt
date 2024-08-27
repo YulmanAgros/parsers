@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.parsers
+package org.xmanga.soft.parsers
 
 import okhttp3.Cookie
 import okhttp3.CookieJar
 import okhttp3.HttpUrl
-import org.koitharu.kotatsu.parsers.util.insertCookie
-import org.koitharu.kotatsu.test_util.component6
-import org.koitharu.kotatsu.test_util.component7
+import org.xmanga.soft.parsers.util.insertCookie
+import org.xmanga.soft.test_util.component6
+import org.xmanga.soft.test_util.component7
 import java.io.InputStream
 import java.util.*
 import java.util.concurrent.TimeUnit

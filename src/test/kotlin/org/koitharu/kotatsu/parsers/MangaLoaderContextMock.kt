@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.parsers
+package org.xmanga.soft.parsers
 
 import com.koushikdutta.quack.QuackContext
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
-import org.koitharu.kotatsu.parsers.bitmap.Bitmap
-import org.koitharu.kotatsu.parsers.config.MangaSourceConfig
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.network.UserAgents
-import org.koitharu.kotatsu.parsers.util.await
+import org.xmanga.soft.parsers.bitmap.Bitmap
+import org.xmanga.soft.parsers.config.MangaSourceConfig
+import org.xmanga.soft.parsers.model.MangaSource
+import org.xmanga.soft.parsers.network.UserAgents
+import org.xmanga.soft.parsers.util.await
 import java.security.SecureRandom
 import java.security.cert.X509Certificate
 import java.util.concurrent.TimeUnit
